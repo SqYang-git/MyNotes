@@ -1,15 +1,29 @@
-ans = []
+# 按顺序存储所有可能的放置方案
+answers = []
 
 
-def q(l, n):
+# 定义递归函数queens
+def queens(ans, length):
     for i in range(1, 9):
-        if not (str(i) in n or sum(abs(i-int(n[j])) == l-j for j in range(l))):
-            if l == 7:
-                ans.append(n+str(i))
+        # 在同一行,不可放置
+        if str(i) in ans:
+            continue
+        # 在同一斜线,不可放置
+        if sum(abs(i - int(ans[j])) == length - j for j in range(length)):
+            continue
+        else:
+            # 若已经完成一个方案
+            if length == 7:
+                answers.append(ans + str(i))
+            # 若未完成方案,加入当前合法位置到ans末尾,继续递归
             else:
-                q(l+1, n+str(i))
+                queens(ans + str(i), length + 1)
 
 
-q(0, "")
-for _ in range(int(input())):
-    print(ans[int(input())-1])
+# 从空字符串开始递归得到所有放置方案
+queens("", 0)
+
+n = int(input())
+for _ in range(n):
+    sequence = int(input()) - 1  # 注意列表编号
+    print(answers[sequence])
