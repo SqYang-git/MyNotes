@@ -1,5 +1,5 @@
 # MyNotes
-This repository is set for "Assignment P"."课程情报" and "Cheetsheet" are written in README.md .
+This repository is set for "Assignment P"."课程情报" is written in README.md .
 ## 课程情报(2024fall,物理学院大一)
 ### 理论物理基础I
 1. 考试时间:12.31上午
