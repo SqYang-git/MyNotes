@@ -1,5 +1,8 @@
 # $Typora$基本用法
 Updated CST 2024 Nov 21 15:19
+
+下载后用Typora查看效果更佳
+
 [TOC]
 
 源代码模式:com /
