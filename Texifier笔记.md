@@ -1,4 +1,7 @@
 # $\rm Texifer$
+Updated CST 2024 Nov 21 15:19
+
+下载后用Typora查看效果更佳
 
 [TOC]
 
