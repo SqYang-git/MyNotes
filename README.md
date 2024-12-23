@@ -85,6 +85,4 @@ This repository is set for "Assignment P"."课程情报" is written in README.md
 1. PF,期末提交1000+字论文
 2. 大三期末前共参加四次讲座,每次500+感想
 3. 马宇杰:15018877286,高欣岩:15249970212
-## CheatSheet
 
-<mark>undone</mark>
