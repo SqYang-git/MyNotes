@@ -357,9 +357,13 @@ f3=Fractino(0.5)  # 1/2
 dec=decimal.Decimal("0.1") # 0.1
 ```
 
-**数学运算** 绝对值`abs()`;幂函数`pow(x, y)`:$x^y$.二进制`bin`(binary),从编号`2:`(第三个字符开始)才是结果
+**数学运算** 绝对值`abs()`;幂函数`pow(x, y)`:$x^y$.二进制`bin(num)`(binary),从编号`2:`(第三个字符开始)才是结果
 除后取整:向下`num // n`,向上`(num + n - 1) // n  `
-`math.ceil(number)`向上取整,`math.floor(number)`向下取整,`math.trunc(number)`截断取整(去掉小数位数)
+`math.ceil(number)`向上取整;`math.floor(number)`向下取整;`math.trunc(number)`截断取整(去掉小数位数)
+常数`math.pi`,`math.e`.`math.inf`.
+`math.log(x, base=e)/math.exp(x)`返回浮点数
+`math.sin(angle_rad)/math.asin(x)`;角度弧度转化`math.radians(x)/math.degrees(x)`
+阶乘`math.factorial(n)`;最大公约数`math.gcd(a, b)`.
 
 **Euler筛** 得到`1<=i<=n`的素数(以列表查找的形式为例,截至`10 ** 6`)
 
@@ -371,13 +375,16 @@ for i in range(2, int(1000000 ** 0.5) + 1):  # 只需查找到开根得到的数
             is_prime[j] = False
 ```
 
-求最大公约数(gcd):辗转相除法(辗转相除直至余数为`0`)(省事可以`from math import gcd`,`ans = gcd(a, b)`)
+手动最大公约数(gcd):辗转相除法(辗转相除直至余数为`0`)(省事可以`from math import gcd`,`ans = gcd(a, b)`)
 ```python
 def gcd(a, b):
   while b:
     a, b = b, a%b
   return a
 ```
+
+lcm可由`lcm = (a * b)/math.gcd(a, b)`来计算
+
 
 ------
 
