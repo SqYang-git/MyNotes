@@ -1,7 +1,7 @@
 # $Typora$基本用法
-Updated CST 2024 Nov 21 15:19
+Updated CST 2024 Dec 24 13:08
 
-下载后用Typora查看效果更佳
+下载后用Typora查看效果更佳,github和Typora语言有少许区别 免责声明:笔记从Notes(即备忘录)转移而来,可能会出现缩进问题
 
 [TOC]
 
