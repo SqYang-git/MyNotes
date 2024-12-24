@@ -1,6 +1,7 @@
 # MyNotes
 This repository is set for "Assignment P"."课程情报" is written in README.md .
 ## 课程情报(School of Physics, Pku)
+直接粘贴过来有排版问题,暂时没有精力调整
 <mark>2024fall, freshman year</mark>:
 ### 理论物理基础I
 1. 考试时间:1.9上午8:30-10:30 
