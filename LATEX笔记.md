@@ -1,7 +1,7 @@
 #  $\rm LATEX$(主要$\rm Markdown$中)
 Updated CST 2024 Nov 21 15:19
 
-下载后用Typora查看效果更佳
+下载后用Typora查看效果更佳,github和Typora语言有少许区别
 
 [TOC]
 
