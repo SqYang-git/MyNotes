@@ -1,7 +1,7 @@
 # SciDavis笔记
-Updated CST 2024 Nov 21 15:19
+Updated CST 2024 Dec 24 13:08
 
-下载后用Typora查看效果更佳
+下载后用Typora查看效果更佳,github和Typora语言有少许区别
 
 [TOC]
 
